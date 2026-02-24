@@ -59,3 +59,7 @@ a {
 a:hover {
   color: #93c5fd;
 }
+
+img {
+  border-radius: 12px;
+}

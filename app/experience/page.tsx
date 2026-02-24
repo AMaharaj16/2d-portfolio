@@ -4,22 +4,45 @@ export default function Experience() {
       <h1 className="page-title">Experience</h1>
 
       <div className="card">
-        <h2>Product Security Analyst Intern</h2>
-        <p>Safe Software</p>
+        <h2>Software Developer Intern</h2>
+        <h3>Safe Software - Product Security Team</h3>
+        <p>
+            At Safe Software, I developed internal Python automation tools to support vulnerability detection and security analysis across production codebases. I worked with tools like Snyk and Black Duck to identify, analyze, and prioritize open-source dependency risks, collaborating with engineering teams to assess CVE impact and support remediation efforts. This role strengthened my understanding of software supply chain security and secure development practices in large-scale systems. <br></br>
+            <br></br>
+            <b>Skills & Technologies:</b>
+        </p>
         <ul>
-          <li>Worked on identifying and mitigating product vulnerabilities</li>
-          <li>Performed security assessments and testing</li>
-          <li>Collaborated with engineering teams on remediation</li>
+          <li>Python</li>
+          <li>Snyk</li>
+          <li>Blackduck</li>
+          <li>GitHub</li>
+          <li>Jira</li>
+          <li>CVE Analysis/Assessment</li>
+          <li>Automation Scripting</li>
         </ul>
+
+        <img src="/safesoftware.jpg" alt="Safe Software Logo" width="300"></img>
       </div>
 
       <div className="card">
-        <h2>UBC Sailbot – Pathfinding Team</h2>
+        <h2>Pathfinding Software Developer (Incoming Lead)</h2>
+        <h3>UBC Sailbot</h3>
+        <p>
+            As part of UBC Sailbot’s software team, I develop local pathfinding algorithms within a ROS-based autonomous navigation system. I work with AIS and sensor data to design navigation logic that accounts for dynamic obstacles and maritime constraints. I also participate in simulation and on-water testing to validate system performance, collaborating within a 20+ member team to integrate navigation into a fully autonomous vessel.<br></br>
+            <br></br>
+            <b>Skills & Technologies:</b>
+        </p>
         <ul>
-          <li>Developing local pathfinding logic for autonomous navigation</li>
-          <li>Working within ROS-based architecture</li>
-          <li>Collaborating in 20+ member software team</li>
+          <li>Python</li>
+          <li>ROS</li>
+          <li>Docker</li>
+          <li>GitHub</li>
+          <li>Ubuntu</li>
+          <li>Pathfinding Algorithms</li>
+          <li>Simulation Testing</li>
         </ul>
+
+        <img src="/ubcsailbot.png" alt="Safe Software Logo" width="200"></img>
       </div>
     </section>
   );
