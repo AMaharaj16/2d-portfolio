@@ -24,7 +24,7 @@ const projects: Project[] = [
     bullets: [
       "Architected a React + Vite frontend with Node.js/Express backend to safely execute and profile user-submitted JavaScript.",
       "Implemented runtime measurement using high-resolution timers and memory profiling across dynamically scaled input sizes.",
-      "Applied least-squares regression to fit empirical data to asymptotic complexity classes (O(n), O(n²), O(log n)).",
+      "Applied least-squares regression to fit empirical data to asymptotic complexity classes (O(n), O(n²), O(log n), etc.)",
       "Designed dynamic data visualizations to illustrate time and space growth trends.",
       "Focused on secure execution boundaries and performance isolation.",
     ],
@@ -62,6 +62,7 @@ const projects: Project[] = [
   },
   {
     title: "Java Gym Progress Tracker",
+    date: "Jul 2025",
     description:
       "Object-oriented workout tracking application built with MVC architecture.",
     types: ["Systems"],
@@ -77,6 +78,7 @@ const projects: Project[] = [
   },
   {
     title: "Pac-Man Game",
+    date: "Jun 2025 - Sep 2025",
     description:
       "Object-oriented Python recreation of the classic arcade game.",
     types: ["Game Development"],
@@ -91,6 +93,7 @@ const projects: Project[] = [
   },
   {
     title: "2048 Game",
+    date: "May 2025",
     description:
       "Matrix-driven 2048 clone exploring algorithmic game logic design.",
     types: ["Game Development"],
@@ -105,6 +108,7 @@ const projects: Project[] = [
   },
   {
     title: "Predicting Newsletter Subscriptions with KNN",
+    date: "April 2025",
     description:
       "Supervised machine learning project evaluating predictive power of user behavior features.",
     types: ["Machine Learning"],
@@ -119,6 +123,7 @@ const projects: Project[] = [
   },
   {
     title: "2D Developer Portfolio",
+    date: "Feb 2026",
     description:
       "Responsive personal portfolio website showcasing projects and experience.",
     types: ["Full Stack"],
@@ -133,6 +138,7 @@ const projects: Project[] = [
   },
   {
     title: "3D Developer Portfolio",
+    date: "Feb 2026 - Present",
     description:
       "Interactive 3D portfolio built with immersive scene rendering.",
     types: ["Full Stack"],
