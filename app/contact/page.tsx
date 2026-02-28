@@ -59,12 +59,12 @@ export default function Contact() {
         <p>Also feel free to check out my profiles:</p>
         <ul>
           <li>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/AMaharaj16" target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/aayush-maharaj/" target="_blank" rel="noopener noreferrer">
               LinkedIn
             </a>
           </li>
