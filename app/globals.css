@@ -50,6 +50,19 @@ body {
   border-radius: 8px;
 }
 
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.card-location {
+  text-align: right;
+  color: #666;
+  font-style: italic;
+}
+
 a {
   color: #60a5fa; /* soft blue */
   text-decoration: none;
