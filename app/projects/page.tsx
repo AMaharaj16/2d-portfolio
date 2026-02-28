@@ -20,7 +20,7 @@ const projects: Project[] = [
       "Full-stack empirical performance analysis platform for JavaScript programs.",
     types: ["Full Stack", "Systems"],
     languages: ["JavaScript/TypeScript"],
-    github: "https://github.com/yourusername/codebuddy",
+    github: "https://github.com/AMaharaj16/CodeBuddy",
     bullets: [
       "Architected a React + Vite frontend with Node.js/Express backend to safely execute and profile user-submitted JavaScript.",
       "Implemented runtime measurement using high-resolution timers and memory profiling across dynamically scaled input sizes.",
@@ -36,7 +36,7 @@ const projects: Project[] = [
       "Machine learning–powered dance scoring web app built in a 24-hour hackathon.",
     types: ["Full Stack", "Machine Learning", "Computer Vision", "Hackathons"],
     languages: ["Python", "JavaScript/TypeScript"],
-    github: "https://github.com/yourusername/mustdance",
+    github: "https://github.com/boydhamilton/mustdance",
     bullets: [
       "Co-developed React frontend and Flask backend to process user-recorded dance videos.",
       "Integrated FFmpeg and OpenCV for robust frame extraction and preprocessing.",
@@ -52,7 +52,7 @@ const projects: Project[] = [
       "Private family-oriented social platform with real-time interactivity.",
     types: ["Full Stack", "Hackathons"],
     languages: ["JavaScript/TypeScript"],
-    github: "https://github.com/yourusername/huddle",
+    github: "https://github.com/jeffh11/NwHacks",
     bullets: [
       "Built full-stack application using Next.js (TypeScript) and Supabase with PostgreSQL.",
       "Implemented authentication, media posting, and real-time presence tracking.",
@@ -67,7 +67,7 @@ const projects: Project[] = [
       "Object-oriented workout tracking application built with MVC architecture.",
     types: ["Systems"],
     languages: ["Java"],
-    github: "https://github.com/yourusername/gymtracker",
+    github: "https://github.com/AMaharaj16/Gym-Progress-Tracker",
     bullets: [
       "Designed domain models including Workout, Exercise, and WorkoutLog with clean separation of concerns.",
       "Implemented JSON-based persistence for saving and loading structured workout data.",
@@ -83,7 +83,7 @@ const projects: Project[] = [
       "Object-oriented Python recreation of the classic arcade game.",
     types: ["Game Development"],
     languages: ["Python"],
-    github: "https://github.com/yourusername/pacman",
+    github: "https://github.com/AMaharaj16/Pac-Man-Game-Project",
     bullets: [
       "Implemented grid-based movement and custom collision detection engine.",
       "Built enemy AI using BFS graph traversal for pathfinding.",
@@ -98,7 +98,7 @@ const projects: Project[] = [
       "Matrix-driven 2048 clone exploring algorithmic game logic design.",
     types: ["Game Development"],
     languages: ["Python"],
-    github: "https://github.com/yourusername/2048",
+    github: "https://github.com/AMaharaj16/2048-Game-Project",
     bullets: [
       "Implemented tile merging and shifting logic using 2D array transformations.",
       "Separated core game logic from Pygame animation layer.",
@@ -113,7 +113,7 @@ const projects: Project[] = [
       "Supervised machine learning project evaluating predictive power of user behavior features.",
     types: ["Machine Learning"],
     languages: ["R"],
-    github: "https://github.com/yourusername/knn-newsletter",
+    github: "https://github.com/kathleenramsey/dsci100_group23",
     bullets: [
       "Built KNN classifier using tidymodels in R.",
       "Performed data cleaning, upsampling, and 5-fold cross-validation.",
@@ -128,7 +128,7 @@ const projects: Project[] = [
       "Responsive personal portfolio website showcasing projects and experience.",
     types: ["Full Stack"],
     languages: ["JavaScript/TypeScript"],
-    github: "https://github.com/yourusername/portfolio-2d",
+    github: "https://github.com/AMaharaj16/2d-portfolio",
     bullets: [
       "Built with Next.js and TypeScript.",
       "Implemented dynamic routing and reusable component architecture.",
@@ -143,7 +143,7 @@ const projects: Project[] = [
       "Interactive 3D portfolio built with immersive scene rendering.",
     types: ["Full Stack"],
     languages: ["JavaScript/TypeScript"],
-    github: "https://github.com/yourusername/portfolio-3d",
+    github: "https://github.com/AMaharaj16/3d-portfolio",
     bullets: [
       "Built with React and Three.js for real-time 3D rendering.",
       "Implemented custom camera controls and scene transitions.",
