@@ -3,16 +3,19 @@ export default function Coursework() {
     <section>
       <h1 className="page-title">Coursework</h1>
 
-      <div >
+      <div className="education">
         <h2>University of British Columbia</h2>
-        <p>
-            September 2024 - May 2028 <br></br>
-            GPA: 4.10/4.33; Dean's <br></br>
-            Activites/Clubs: UBC Sailbot, UBC Muay Thai Club, UBC Boxing Club<br></br><br></br>
+        <p className="degree">
+            Bachelor of Science: <strong>Computer Science Major</strong>, <strong>Mathematics Minor</strong>
         </p>
-            
+        <p className="dates-gpa">
+            <strong>September 2024 – May 2028</strong><br></br>
+            GPA: 4.10 / 4.33; Dean's List
+        </p>
+        <p className="activities">
+            <strong>Activities & Clubs:</strong> UBC Sailbot, UBC Muay Thai Club, UBC Boxing Club
+        </p>
       </div>
-
       <div className="card">
         <h3>CPSC 221 - Basic Algorithms and Data Structures</h3>
         <p>Design and analysis of basic algorithms and data structures; algorithm analysis methods, searching and sorting algorithms, basic data structures, graphs and concurrency.</p>
