@@ -6,14 +6,27 @@ export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [status, setStatus] = useState("");
 
-  const handleSend = () => {
-    const mailtoLink = `mailto:aayush.maharaj16@gmail.com?subject=Contact%20from%20${encodeURIComponent(
-      name
-    )}&body=${encodeURIComponent(
-      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
-    )}`;
-    window.location.href = mailtoLink;
+  const handleSend = async () => {
+    setStatus("Sending...");
+
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ name, email, message }),
+    });
+
+    if (res.ok) {
+      setStatus("Message sent successfully.");
+      setName("");
+      setEmail("");
+      setMessage("");
+    } else {
+      setStatus("Something went wrong. Try again.");
+    }
   };
 
   return (
