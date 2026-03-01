@@ -4,7 +4,7 @@ export default function Home() {
       <h1 className="page-title">About Me</h1>
 
       <p>
-        I’m a <strong>third-year Computer Science student at UBC</strong> who loves building systems that actually work and work fast. Whether it’s a full-stack web app, a Python automation script, or experimenting with ML/AI, I get a kick out of solving problems that challenge both my code and my thinking.
+        I’m a <strong>second-year Computer Science student at UBC</strong> who loves building systems that actually work and work fast. Whether it’s a full-stack web app, a Python automation script, or experimenting with ML/AI, I get a kick out of solving problems that challenge both my code and my thinking.
       </p>
 
       <p>
