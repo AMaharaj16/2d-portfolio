@@ -9,7 +9,7 @@ export default function Home() {
       </p>
 
       <p>
-        Lately, I’ve been especially interested in full-stack development, security, and machine learning. I like thinking about how systems fit together, how data flows through them, and how to make them more efficient and reliable. A lot of my projects start with curiosity and end with me going down a deep technical rabbit hole, which is honestly my favorite part.
+        Lately, I’ve been especially interested in full-stack development, security, and machine learning. I like thinking about how systems fit together, how data flows through them, and how to make them more efficient and reliable.
       </p>
 
       {/* Technical stack */}
