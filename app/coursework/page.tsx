@@ -10,7 +10,7 @@ export default function Coursework() {
         </p>
         <p className="dates-gpa">
             <strong>September 2024 – May 2028</strong><br></br>
-            GPA: 4.10 / 4.33; Dean's List
+            CS+Math GPA: 4.33 / 4.33; Dean's List
         </p>
         <p className="activities">
             <strong>Activities & Clubs:</strong> UBC Sailbot, UBC Muay Thai Club, UBC Boxing Club
