@@ -13,7 +13,7 @@ export default function Coursework() {
             CS+Math GPA: 4.33 / 4.33; Dean's List
         </p>
         <p className="activities">
-            <strong>Activities & Clubs:</strong> UBC Sailbot, UBC Muay Thai Club, UBC Boxing Club
+            <strong>Activities & Clubs:</strong> UBC Sailbot Pathfinding Lead, eProjects UBC Tech Director, UBC Muay Thai Club, UBC Boxing Club
         </p>
       </div>
       <div className="card">
