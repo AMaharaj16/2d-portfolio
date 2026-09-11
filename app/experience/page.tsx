@@ -24,8 +24,7 @@ export default function Experience() {
           <li>Async Concurrency</li>
         </ul>
 
-        {/* TODO: Add the Upgraded logo at public/upgraded.png, then uncomment the image below. */}
-        {/* <img src="/upgraded.png" alt="Upgraded Logo" width="200" /> */}
+        <img src="/upgraded.jpg" alt="Upgraded Logo" width="200"></img>
       </div>
 
       <div className="card">
