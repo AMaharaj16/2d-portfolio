@@ -17,6 +17,7 @@ export default function Home() {
         <strong>Programming Languages</strong><br />
         <span className="skill-badge">Python</span>
         <span className="skill-badge">C / C++</span>
+        <span className="skill-badge">C#</span>
         <span className="skill-badge">JavaScript</span>
         <span className="skill-badge">TypeScript</span>
         <span className="skill-badge">Java</span>
@@ -32,10 +33,14 @@ export default function Home() {
         <span className="skill-badge">Next.js</span>
         <span className="skill-badge">Node.js</span>
         <span className="skill-badge">Express.js</span>
+        <span className="skill-badge">.NET</span>
+        <span className="skill-badge">Flask</span>
         <span className="skill-badge">Swing</span>
         <span className="skill-badge">JUnit</span>
         <span className="skill-badge">Pytest</span>
         <span className="skill-badge">Pygame</span>
+        <span className="skill-badge">Claude API</span>
+        <span className="skill-badge">OpenAI API</span>
       </p>
 
       <p>
@@ -43,6 +48,7 @@ export default function Home() {
         <span className="skill-badge">AWS</span>
         <span className="skill-badge">Azure</span>
         <span className="skill-badge">GCP</span>
+        <span className="skill-badge">Vercel</span>
         <span className="skill-badge">Supabase</span>
         <span className="skill-badge">PostgreSQL</span>
         <span className="skill-badge">Docker</span>
@@ -55,8 +61,11 @@ export default function Home() {
         <strong>Tools</strong><br />
         <span className="skill-badge">Black Duck</span>
         <span className="skill-badge">Snyk</span>
+        <span className="skill-badge">OSV.dev</span>
+        <span className="skill-badge">NVD API</span>
         <span className="skill-badge">Git</span>
         <span className="skill-badge">GitHub</span>
+        <span className="skill-badge">Jira</span>
       </p>
 
       {/* Story */}
