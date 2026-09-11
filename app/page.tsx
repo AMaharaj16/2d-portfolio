@@ -5,7 +5,7 @@ export default function Home() {
 
       {/* High-level overview */}
       <p>
-        Hi, I’m Aayush. I’m a second-year Computer Science major with a Math minor at UBC. I enjoy building things that are both practical and thoughtfully designed, whether that is a full-stack web application, a backend service, or a small machine learning project. What draws me to software is the mix of logic and creativity. There is something really satisfying about taking an idea, breaking it down, and turning it into something that actually works.
+        Hi, I’m Aayush. I’m a third-year Computer Science major with a Math minor at UBC. I enjoy building things that are both practical and thoughtfully designed, whether that is a full-stack web application, a backend service, or a small machine learning project. What draws me to software is the mix of logic and creativity. There is something really satisfying about taking an idea, breaking it down, and turning it into something that actually works.
       </p>
 
       <p>
@@ -16,33 +16,47 @@ export default function Home() {
       <p>
         <strong>Programming Languages</strong><br />
         <span className="skill-badge">Python</span>
-        <span className="skill-badge">JavaScript / TypeScript</span>
-        <span className="skill-badge">Java</span>
         <span className="skill-badge">C / C++</span>
-        <span className="skill-badge">R</span>
+        <span className="skill-badge">JavaScript</span>
+        <span className="skill-badge">TypeScript</span>
+        <span className="skill-badge">Java</span>
         <span className="skill-badge">HTML</span>
         <span className="skill-badge">CSS</span>
+        <span className="skill-badge">R</span>
       </p>
 
       <p>
-        <strong>Frameworks & Technologies</strong><br />
+        <strong>Frameworks & Libraries</strong><br />
+        <span className="skill-badge">MCP</span>
         <span className="skill-badge">React</span>
         <span className="skill-badge">Next.js</span>
         <span className="skill-badge">Node.js</span>
-        <span className="skill-badge">Express</span>
-        <span className="skill-badge">Flask</span>
+        <span className="skill-badge">Express.js</span>
+        <span className="skill-badge">Swing</span>
+        <span className="skill-badge">JUnit</span>
+        <span className="skill-badge">Pytest</span>
+        <span className="skill-badge">Pygame</span>
+      </p>
+
+      <p>
+        <strong>Cloud & Infrastructure</strong><br />
+        <span className="skill-badge">AWS</span>
+        <span className="skill-badge">Azure</span>
+        <span className="skill-badge">GCP</span>
         <span className="skill-badge">Supabase</span>
         <span className="skill-badge">PostgreSQL</span>
+        <span className="skill-badge">Docker</span>
+        <span className="skill-badge">Kubernetes</span>
+        <span className="skill-badge">Ubuntu</span>
+        <span className="skill-badge">ROS</span>
       </p>
 
       <p>
         <strong>Tools</strong><br />
-        <span className="skill-badge">Git</span>
-        <span className="skill-badge">Docker</span>
-        <span className="skill-badge">VS Code</span>
         <span className="skill-badge">Black Duck</span>
-        <span className="skill-badge">Jira</span>
-        <span className="skill-badge">Sourcetree</span>
+        <span className="skill-badge">Snyk</span>
+        <span className="skill-badge">Git</span>
+        <span className="skill-badge">GitHub</span>
       </p>
 
       {/* Story */}

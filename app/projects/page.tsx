@@ -14,35 +14,31 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "CodeBuddy",
-    date: "Oct 2025 – Jan 2026",
+    title: "CVEContext (In Progress)",
+    date: "Aug 2026",
     description:
-      "Full-stack empirical performance analysis platform for JavaScript programs.",
-    types: ["Full Stack", "Systems"],
-    languages: ["JavaScript/TypeScript"],
-    github: "https://github.com/AMaharaj16/CodeBuddy",
+      "In-progress .NET 8 Blazor app that scans npm dependencies for known vulnerabilities.",
+    types: ["Full Stack"],
+    languages: ["C#"],
+    github: "https://github.com/AMaharaj16/CVE-Context",
     bullets: [
-      "Architected a React + Vite frontend with Node.js/Express backend to safely execute and profile user-submitted JavaScript.",
-      "Implemented runtime measurement using high-resolution timers and memory profiling across dynamically scaled input sizes.",
-      "Applied least-squares regression to fit empirical data to asymptotic complexity classes (O(n), O(n²), O(log n), etc.)",
-      "Designed dynamic data visualizations to illustrate time and space growth trends.",
-      "Focused on secure execution boundaries and performance isolation.",
+      "Building a .NET 8 Blazor app on Azure to scan npm dependencies for known vulnerabilities.",
+      "Integrating the GitHub REST API and OSV.dev to match dependencies against CVEs by version.",
+      "Correlating vulnerable-package imports to source files, using the OpenAI API for prioritized risk tiers.",
     ],
   },
   {
-    title: "Must Dance (HackCamp 2025)",
-    date: "Nov 2025",
+    title: "InterviewIQ (AI Hackathon 2026)",
+    date: "Jun 2026",
     description:
-      "Machine learning–powered dance scoring web app built in a 24-hour hackathon.",
-    types: ["Full Stack", "Machine Learning", "Computer Vision", "Hackathons"],
-    languages: ["Python", "JavaScript/TypeScript"],
-    github: "https://github.com/boydhamilton/mustdance",
+      "Real-time AI interview simulator that grades users on their hiring decisions, built at UC Berkeley's AI Hackathon.",
+    types: ["Full Stack", "Machine Learning", "Hackathons"],
+    languages: ["JavaScript/TypeScript"],
+    github: "https://github.com/evananderson06/berkeley-ai-26",
     bullets: [
-      "Co-developed React frontend and Flask backend to process user-recorded dance videos.",
-      "Integrated FFmpeg and OpenCV for robust frame extraction and preprocessing.",
-      "Built ML-based pose estimation pipeline using Mediapipe to compare user movement against reference choreography.",
-      "Designed scoring logic to evaluate positional accuracy across key body landmarks.",
-      "Shipped a working MVP within 24 hours in a 3-person team.",
+      "Built a real-time AI interview simulator (Next.js, TypeScript) that grades users on hiring decisions.",
+      "Architected a multi-agent Claude workflow that generates, role-plays, and grades realistic candidates.",
+      "Engineered a live Deepgram voice pipeline (Nova-3 STT, Aura-2 TTS) over WebSockets with barge-in.",
     ],
   },
   {
@@ -61,6 +57,36 @@ const projects: Project[] = [
     ],
   },
   {
+    title: "CodeBuddy",
+    date: "Oct 2025 – Jan 2026",
+    description:
+      "Full-stack empirical performance analysis platform for JavaScript programs.",
+    types: ["Full Stack", "Systems"],
+    languages: ["JavaScript/TypeScript"],
+    github: "https://github.com/AMaharaj16/CodeBuddy",
+    bullets: [
+      "Built React + Node.js/Express app on AWS EC2 with nginx, pm2, and Vercel rewrites for HTTPS proxy.",
+      "Sandboxed execution in an isolated VM with per-IP rate limiting (30 req/min) for untrusted code.",
+      "Profiled runtime and memory, fitting results to a custom regression engine across 6 complexity classes.",
+      "Created interactive Chart.js visualizations to analyze performance trends across scaled inputs.",
+    ],
+  },
+  {
+    title: "Must Dance (HackCamp 2025)",
+    date: "Nov 2025",
+    description:
+      "Machine learning–powered dance scoring web app built in a 24-hour hackathon.",
+    types: ["Full Stack", "Machine Learning", "Computer Vision", "Hackathons"],
+    languages: ["Python", "JavaScript/TypeScript"],
+    github: "https://github.com/boydhamilton/mustdance",
+    bullets: [
+      "Co-developed React frontend and Flask backend to process and evaluate user-recorded dance videos.",
+      "Built a custom pose-based scoring system on top of MediaPipe landmarks to evaluate movement accuracy.",
+      "Integrated FFmpeg and OpenCV for video processing, frame extraction, and preprocessing pipeline.",
+      "Shipped a working MVP within 24 hours in a 3-person team.",
+    ],
+  },
+  {
     title: "Java Gym Progress Tracker",
     date: "Jul 2025",
     description:
@@ -73,12 +99,11 @@ const projects: Project[] = [
       "Implemented JSON-based persistence for saving and loading structured workout data.",
       "Developed console-based interface followed by Java Swing GUI without modifying core model layer.",
       "Integrated one-rep max prediction logic using strength estimation formulas.",
-      "Emphasized extensibility and modular architecture.",
     ],
   },
   {
     title: "Pac-Man Game",
-    date: "Jun 2025 - Sep 2025",
+    date: "Jun 2025 – Sep 2025",
     description:
       "Object-oriented Python recreation of the classic arcade game.",
     types: ["Game Development"],
@@ -108,7 +133,7 @@ const projects: Project[] = [
   },
   {
     title: "Predicting Newsletter Subscriptions with KNN",
-    date: "April 2025",
+    date: "Apr 2025",
     description:
       "Supervised machine learning project evaluating predictive power of user behavior features.",
     types: ["Machine Learning"],
@@ -121,40 +146,10 @@ const projects: Project[] = [
       "Analyzed weak predictive signal across selected behavioral features.",
     ],
   },
-  {
-    title: "2D Developer Portfolio",
-    date: "Feb 2026",
-    description:
-      "Responsive personal portfolio website showcasing projects and experience.",
-    types: ["Full Stack"],
-    languages: ["JavaScript/TypeScript"],
-    github: "https://github.com/AMaharaj16/2d-portfolio",
-    bullets: [
-      "Built with Next.js and TypeScript.",
-      "Implemented dynamic routing and reusable component architecture.",
-      "Designed responsive layouts for desktop and mobile.",
-      "Focused on clean typography and minimal UI.",
-    ],
-  },
-  {
-    title: "3D Developer Portfolio",
-    date: "Feb 2026 - Present",
-    description:
-      "Interactive 3D portfolio built with immersive scene rendering.",
-    types: ["Full Stack"],
-    languages: ["JavaScript/TypeScript"],
-    github: "https://github.com/AMaharaj16/3d-portfolio",
-    bullets: [
-      "Built with React and Three.js for real-time 3D rendering.",
-      "Implemented custom camera controls and scene transitions.",
-      "Optimized rendering performance and asset loading.",
-      "Designed interactive 3D experience while maintaining responsiveness.",
-    ],
-  },
 ];
 
 const typeOptions = ["All", "Full Stack", "Machine Learning", "Computer Vision", "Systems", "Game Development", "Hackathons"];
-const languageOptions = ["All", "JavaScript/TypeScript", "Python", "Java", "R"];
+const languageOptions = ["All", "JavaScript/TypeScript", "Python", "Java", "C#", "R"];
 
 export default function Projects() {
   const [selectedTypes, setSelectedTypes] = useState<string[]>(["All"]);
