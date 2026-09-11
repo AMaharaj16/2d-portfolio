@@ -474,3 +474,51 @@ a:hover {
   font-size: 1rem;
 }
 
+/* ========================
+   FOOTER (GLOBAL)  — social icons on every page
+======================== */
+
+/* Sticky footer: keep it pinned to the bottom on short pages */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main.container {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  border-top: 1px solid #1f1f1f;
+  padding: 1.75rem 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.footer-icon {
+  color: #888;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.footer-icon:hover {
+  color: #60a5fa;
+  transform: translateY(-3px);
+}
+
+/* Suppress the global animated underline for icon links */
+.footer-icon::after {
+  display: none;
+}
+

@@ -130,6 +130,15 @@ export default function Contact() {
           </li>
           <li>
             <a
+              href="https://www.youtube.com/@CodeWithAayush-x6w"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              YouTube
+            </a>
+          </li>
+          <li>
+            <a
               href="https://www.instagram.com/aayush.maharaj16/"
               target="_blank"
               rel="noopener noreferrer"
